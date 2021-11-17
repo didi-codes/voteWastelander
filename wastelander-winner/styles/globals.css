@@ -14,3 +14,13 @@ a {
 * {
   box-sizing: border-box;
 }
+
+@font-face {
+  font-family:"FalloutFont";
+  src: url("../public/fonts/FalloutFont/FalloutFont.ttf");
+}
+@font-face {
+  font-family:"monofonto";
+  src: url("../public/fonts/Monofonto/monofonto.otf");
+}
+

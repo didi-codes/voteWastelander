@@ -5,7 +5,7 @@ import styles from '../styles/Home.module.css'
 export default function Home() {
   return (
     <div className={styles.container}>
-      <video autoPlay loop className={styles.video}>
+      <video autoPlay muted loop className={styles.video}>
         <source src="./video/scavengers.mp4" />
       </video>
       <Head>

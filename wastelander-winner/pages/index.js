@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Link from 'next/link'
+import Nav from '../components/nav'
 import styles from '../styles/Home.module.css'
 
 export default function Home() {
@@ -14,7 +15,7 @@ export default function Home() {
         <link rel="preload" href="/fonts/FalloutFont/FalloutFont.ttf" />
         <link rel="preload" href="/fonts/Monofonto/monofonto.otf" />
       </Head>
-
+      <Nav />
       <main className={styles.main}>
         <h1 className={styles.title}>
           Welcome To The Wild Wild Wasteland

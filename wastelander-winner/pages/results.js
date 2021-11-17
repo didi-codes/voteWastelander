@@ -37,10 +37,12 @@ const Results = ({wastelanders}) => {
         <div>
             <h1>Results</h1>
             <div>
+                <ul>
                 {wastelanders.map(wastelander => {
                     
                     <li>{wastelander.name}</li>
                 })}
+                </ul>
             </div>
             <div>
              

@@ -1,0 +1,29 @@
+.holder{
+    background-image: url("/img/tv.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;  
+    min-height: 100vh;
+    padding: 0 0.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    min-height: 100vh;
+    padding: 0 0.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "monofonto";
+    text-shadow: 1px 1px 50px #41E3B2;
+}
+
+.title {
+    line-height: 1;
+    font-family: "FalloutFont";
+    color: #fff;
+    letter-spacing: 1rem;
+    font-size: 3.5rem;
+}

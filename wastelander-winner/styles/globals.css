@@ -24,3 +24,29 @@ a {
   src: url("../public/fonts/Monofonto/monofonto.otf");
 }
 
+.section {
+  margin-top: 1%;
+}
+
+.section table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: rgba(0, 0, 0, 0.726);
+  color: #fff;
+  font-size: 1.5rem;
+  padding: 1rem;
+}
+.section th, tr, td {
+  border: 1px solid #41E3B2;
+  -webkit-text-stroke: #000 .5px ;
+  text-align: left;
+}
+
+.section th {
+  font-size: 2rem;
+  -webkit-text-stroke: #000 .25px ;
+  padding: 1rem;
+}
+.section tr, td {
+  padding: .9rem;
+}

@@ -10,7 +10,6 @@ const Section = ({ wastelanders }) => {
             <th>Creativity</th>
             <th>Wisdom</th>
           </tr>
-
           {wastelanders.map((wastelander) => (
             <tr>
               <td>{wastelander.name}</td>

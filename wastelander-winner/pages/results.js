@@ -1,6 +1,7 @@
 import { gql, GraphQLClient } from 'graphql-request';
 import Nav from '../components/Nav';
 import Section from '../components/Section';
+import styles from '../styles/Results.module.css'
 
 export const getStaticProps = async () => {
   const url = process.env.ENDPOINT;
@@ -36,10 +37,10 @@ export const getStaticProps = async () => {
 
 const Results = ({ wastelanders }) => {
   return (
-    <div>
+    <div className={styles.holder}>
      <Nav />
-      <div>
-        <h1>Results</h1>
+      <div className={styles.container}>
+        <h1 className={styles.title}>Results</h1>
         <Section wastelanders={wastelanders} />
       </div>
       <div></div>

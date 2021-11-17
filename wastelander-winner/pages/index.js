@@ -27,7 +27,7 @@ export default function Home() {
         </p>
 
         <div className={styles.btn}>
-          <Link href="/">
+          <Link href="/vote">
             <a>
               Smash the button to select your tribute...
             </a>

@@ -1,0 +1,20 @@
+.nav {
+    font-family: "monofonto";
+    color: #fff;
+    width: 100%;
+    font-size: 1.5rem;
+}
+
+.list {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+
+.item {
+    margin: 0 30px 0 30px;
+}
+.item:hover {
+   color: #41E366;
+   text-shadow: 1px 1px 50px #fff; 
+}
